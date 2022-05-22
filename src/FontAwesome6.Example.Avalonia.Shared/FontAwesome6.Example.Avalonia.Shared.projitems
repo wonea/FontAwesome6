@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>EF37BBB3-2896-42D2-9AD7-FC5D4673ADCC</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>FontAwesome6.Example.Avalonia.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\HexColorStringToSolidColorBrushConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\NullableDoubleToStringConverter.cs" />
+  </ItemGroup>
+</Project>
