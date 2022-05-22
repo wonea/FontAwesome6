@@ -4,7 +4,7 @@ using Avalonia.Media;
 using System;
 using System.Globalization;
 
-namespace FontAwesome6.Example.WPF.Converters
+namespace FontAwesome.Avalonia.Converters
 {
     //[ValueConversion(typeof(SolidColorBrush), typeof(string))]
     public class HexColorStringToSolidColorBrushConverter : IValueConverter

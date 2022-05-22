@@ -3,7 +3,7 @@
 using System;
 using System.Globalization;
 
-namespace FontAwesome6.Example.WPF.Converters
+namespace FontAwesome.Avalonia.Converters
 {
     //[ValueConversion(typeof(double?), typeof(string))]
     public class NullableDoubleToStringConverter : IValueConverter

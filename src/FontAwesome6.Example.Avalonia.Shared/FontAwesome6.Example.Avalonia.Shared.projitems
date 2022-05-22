@@ -11,5 +11,6 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Converters\HexColorStringToSolidColorBrushConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\NullableDoubleToStringConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainWindowViewModel.cs" />
   </ItemGroup>
 </Project>
