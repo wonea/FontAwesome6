@@ -3,15 +3,33 @@
         xmlns:vm="using:FontAwesome6.Example.Avalonia.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:converters="clr-namespace:FontAwesome.Avalonia.Converters"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="FontAwesome6.Example.Avalonia.Views.MainWindow"
+        xmlns:faf="http://schemas.fontawesome.com/icons/fonts"
+        xmlns:fafap="http://schemas.fontawesome.com/icons/fonts/properties"
+        xmlns:fas="http://schemas.fontawesome.com/icons/svg"        
+        xmlns:fasap="http://schemas.fontawesome.com/icons/svg/properties"  
         Icon="/Assets/avalonia-logo.ico"
-        Title="FontAwesome6.Example.Avalonia">
+        Title="FontAwesome6.Example.Avalonia"
+        >
 
     <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-
+    <Window.Resources>
+        <faf:IconNameConverter x:Key="IconNameConverter"/>
+        <faf:StyleConverter x:Key="StyleConverter"/>
+        <faf:ImageSourceConverter x:Key="ImageSourceConverter"/>
+        <faf:DrawingConverter x:Key="DrawingConverter"/>
+        <fas:ImageSourceConverter x:Key="SvgImageSourceConverter"/>
+        <converters:NullableDoubleToStringConverter x:Key="NullableDoubleToStringConverter"/>
+        <converters:HexColorStringToSolidColorBrushConverter x:Key="HexColorStringToSolidColorBrushConverter"/>
+    </Window.Resources>
+    <!--<Window.Icon>
+        <DrawingImage Drawing="{Binding SelectedIcon, Converter={StaticResource DrawingConverter}}"/>
+    </Window.Icon>-->
+    
     <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
 </Window>
