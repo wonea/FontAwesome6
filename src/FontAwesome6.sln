@@ -83,6 +83,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinUI", "WinUI", "{49BAF5F9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontAwesome6.Example.WinUI", "FontAwesome6.Example.WinUI\FontAwesome6.Example.WinUI.csproj", "{73A8AAB0-6FD2-4740-A5E4-7418B1D1F829}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Avalonia", "Avalonia", "{16D93713-B51D-44F6-8F0D-04D92B649029}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		FontAwesome6.Example.WPF.Shared\FontAwesome6.Example.WPF.Shared.projitems*{01b24abc-b5d6-4ee7-a8e3-c9bd9d23cef6}*SharedItemsImports = 5
@@ -862,6 +864,7 @@ Global
 		{6F049850-2655-4DA6-BCE0-14C61C9C9D48} = {D67C2CEA-B19F-461E-857A-EEAFD66EEF68}
 		{49BAF5F9-43CC-419F-960D-B969E5F6AB9B} = {A4FA45D3-1AE7-4FE8-B096-542B274582E8}
 		{73A8AAB0-6FD2-4740-A5E4-7418B1D1F829} = {49BAF5F9-43CC-419F-960D-B969E5F6AB9B}
+		{16D93713-B51D-44F6-8F0D-04D92B649029} = {A4FA45D3-1AE7-4FE8-B096-542B274582E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED777760-5E59-4008-834B-7373DE008E3F}
