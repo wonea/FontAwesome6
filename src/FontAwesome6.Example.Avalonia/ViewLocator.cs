@@ -3,6 +3,8 @@ using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 
+using FontAwesome.Avalonia;
+
 using FontAwesome6.Example.Avalonia.ViewModels;
 
 namespace FontAwesome6.Example.Avalonia
