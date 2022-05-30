@@ -11,9 +11,7 @@
         xmlns:fas="http://schemas.fontawesome.com/icons/svg"        
         xmlns:fasap="http://schemas.fontawesome.com/icons/svg/properties"  
         Icon="/Assets/avalonia-logo.ico"
-        Title="FontAwesome6.Example.Avalonia"
-        >
-
+        Title="FontAwesome6.Example.Avalonia">
     <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
